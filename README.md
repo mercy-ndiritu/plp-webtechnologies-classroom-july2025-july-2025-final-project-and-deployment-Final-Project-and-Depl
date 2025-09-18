@@ -88,3 +88,105 @@ Deploy your project and confirm that:
 * Clean, well-organized, and commented code
 * Successful live deployment with a working link
 * Evidence of following best practices
+
+
+
+# 🎬 Anime Cinema Website
+
+A modern, responsive **anime cinema website** showcasing now-playing anime movies, upcoming events, and an interactive gallery. Built with HTML, CSS, and JavaScript.
+
+*live preview* - https://plp-webtechnologies-classroom-july2-six-virid.vercel.app/
+
+
+---
+
+## 🌟 Features
+
+* **Hero Section**: Eye-catching banner with background image, title, and tagline.
+* **Navigation Menu**: Smooth scrolling and section switching with mobile menu support.
+* **Now Playing (Movies Section)**:
+
+  * Dynamic movie cards with posters, genres, and short descriptions.
+  * Neon-inspired hover animations and interactive effects.
+* **Gallery Section**:
+
+  * Grid-based anime gallery featuring posters, stills, and events.
+  * Hover animations with zoom-in and glow effects.
+* **Contact Form**: Simple contact form for user feedback.
+* **Responsive Design**: Works across desktops, tablets, and mobile devices.
+
+---
+
+## 🖼️ Sections Breakdown
+
+### 1. **Hero Section**
+
+* Large anime-inspired banner.
+* Contains a **title**, **tagline**, and a **call-to-action (CTA)** button that links to the movies section.
+
+### 2. **Movies Section**
+
+* Showcases six anime films under different categories:
+
+  * **Adventure** – *Spirited Away*
+  * **Supernatural** – *Demon Slayer: Mugen Train*
+  * **Romance/Drama** – *Your Name*
+  * **Sci-Fi/Action** – *Akira*
+  * **Fantasy** – *Ponyo*
+  * **Drama/Adventure** – *Princess Mononoke*
+
+### 3. **Gallery Section**
+
+* A collection of:
+
+  * Movie stills
+  * Posters
+  * Cosplay/event photos
+* Interactive hover effects for a cinematic vibe.
+
+### 4. **Contact Section**
+
+* Includes a **form** with name, email, and message.
+* Demo functionality: shows a “Thank you” alert and resets form.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+* **Styling:** Custom CSS with gradient backgrounds, neon hover effects, and responsive grid layouts
+* **Interactivity:** Smooth scrolling, active link highlighting, mobile menu toggle
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mercy-ndiritu/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+   ```
+2. Navigate into the project folder:
+
+   ```bash
+   cd anime-cinema
+   ```
+3. Open `index.html` in your browser.
+
+---
+
+## 🎨 Future Enhancements
+
+* Add **lightbox/slideshow** for gallery images.
+* Implement **real contact form backend** (Node.js, PHP, or Firebase).
+* Add **movie schedules & ticket booking system**.
+* Dark mode toggle.
+
+---
+
+## 📸 Preview
+
+*
+
+---
+
