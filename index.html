@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakura Anime Cinema</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">Sakura Cinema</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+        <li><a href="#" class="nav-link" data-page="movies">Movies</a></li>
+        <li><a href="#" class="nav-link" data-page="showtimes">Showtimes</a></li>
+        <li><a href="#" class="nav-link" data-page="about">About</a></li>
+        <li><a href="#" class="nav-link" data-page="gallery">Gallery</a></li>
+        <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+      </ul>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero content-section active" id="home">
+    <div class="hero-content">
+      <h1>Welcome to Sakura Cinema</h1>
+      <p>Experience the magic of anime on the big screen. Where stories come to life and dreams take flight.</p>
+      <a href="#" class="cta-button" data-page="movies">Explore Movies</a>
+    </div>
+  </section>
+
+  <!-- Movies Section -->
+  <section class="content-section" id="movies">
+    <div class="container">
+      <h2 class="section-title">Now Playing</h2>
+      <div class="movies-grid">
+        <div class="movie-card">
+          <div class="movie-poster">
+            <img src="images/p09f3lcg.jpg" alt="Spirited">
+          </div>
+          <div class="movie-info">
+            <h3 class="movie-title">Spirited Away</h3>
+            <p class="movie-genre">Fantasy • Adventure</p>
+            <p class="movie-description">A magical journey of a young girl in a world of spirits and wonder.</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <div class="movie-poster">
+            <img src="images/1142445.png" alt="Demon Slayer: Infinity Castle">
+          </div>
+          <div class="movie-info">
+            <h3 class="movie-title">Demon Slayer: Mugen Train</h3>
+            <p class="movie-genre">Action • Supernatural</p>
+            <p class="movie-description">An epic battle aboard a mysterious train against powerful demons.</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <div class="movie-poster">
+            <img src="images/yourname.jpg" alt="Your Name">
+          </div>
+          <div class="movie-info">
+            <h3 class="movie-title">Your Name</h3>
+            <p class="movie-genre">Romance • Drama</p>
+            <p class="movie-description">Two teenagers share a profound, magical connection in this beautiful tale.</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <div class="movie-poster">
+            <img src="images/akira.jpg" alt="Akira">
+          </div>
+          <div class="movie-info">
+            <h3 class="movie-title">Akira</h3>
+            <p class="movie-genre">Sci-Fi • Action</p>
+            <p class="movie-description">A cyberpunk masterpiece set in post-apocalyptic Neo-Tokyo.</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <div class="movie-poster">
+            <img src="images/ponyo.jpg" alt="Ponyo">
+          </div>
+          <div class="movie-info">
+            <h3 class="movie-title">Ponyo</h3>
+            <p class="movie-genre">Family • Fantasy</p>
+            <p class="movie-description">A heartwarming tale of friendship between a boy and a magical fish.</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <div class="movie-poster">
+            <img src="images/princess.jpg" alt="Princess Mononoke">
+          </div>
+          <div class="movie-info">
+            <h3 class="movie-title">Princess Mononoke</h3>
+            <p class="movie-genre">Adventure • Drama</p>
+            <p class="movie-description">An epic tale of nature, humanity, and the bonds between them.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showtimes Section -->
+  <section class="content-section" id="showtimes">
+    <div class="container">
+      <h2 class="section-title">Showtimes</h2>
+      <div class="showtime-grid">
+        <div class="showtime-card">
+          <h3 class="showtime-movie">Spirited Away</h3>
+          <div class="showtime-times">
+            <span class="time-slot">2:00 PM</span>
+            <span class="time-slot">5:30 PM</span>
+            <span class="time-slot">8:45 PM</span>
+          </div>
+        </div>
+        <div class="showtime-card">
+          <h3 class="showtime-movie">Demon Slayer</h3>
+          <div class="showtime-times">
+            <span class="time-slot">1:15 PM</span>
+            <span class="time-slot">4:20 PM</span>
+            <span class="time-slot">7:30 PM</span>
+            <span class="time-slot">10:15 PM</span>
+          </div>
+        </div>
+        <div class="showtime-card">
+          <h3 class="showtime-movie">Your Name</h3>
+          <div class="showtime-times">
+            <span class="time-slot">3:00 PM</span>
+            <span class="time-slot">6:15 PM</span>
+            <span class="time-slot">9:30 PM</span>
+          </div>
+        </div>
+        <div class="showtime-card">
+          <h3 class="showtime-movie">Akira</h3>
+          <div class="showtime-times">
+            <span class="time-slot">2:30 PM</span>
+            <span class="time-slot">7:00 PM</span>
+            <span class="time-slot">9:45 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="content-section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Sakura Cinema</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Welcome to Sakura Cinema, where the artistry of anime comes alive on the big screen. Since 2018, we've been dedicated to bringing you the finest selection of animated films from Japan and around the world.</p>
+          <p>Our state-of-the-art theaters feature premium sound systems and crystal-clear projection to ensure every frame is displayed with the quality it deserves. From Studio Ghibli classics to the latest blockbusters, we curate an experience that celebrates the rich storytelling tradition of anime.</p>
+          <p>Whether you're a longtime otaku or discovering anime for the first time, our welcoming atmosphere and passionate staff will ensure your visit is memorable. Join our community of anime lovers and experience cinema like never before.</p>
+        </div>
+        <div class="about-image">🏮</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="content-section" id="gallery">
+  <div class="container">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/one-piece.jpg" alt="One Piece">
+      </div>
+      <div class="gallery-item">
+        <img src="images/hunter-x-hunter.jpg" alt="Hunter x Hunter">
+      </div>
+      <div class="gallery-item">
+        <img src="images/bleach-news.jpg" alt="Bleach">
+      </div>
+      <div class="gallery-item">
+        <img src="images/solo-leveling.jpg" alt="Solo Leveling">
+      </div>
+      <div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div>
+      <div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div><div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div><div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div><div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div><div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div>
+      <div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div><div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+      <div class="gallery-item">
+        <img src="images/spy-x-family.jpg" alt="Spy x Family Poster">
+      </div><div class="gallery-item">
+        <img src="images/rudo.jpg" alt="Anime Night Crowd">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section class="content-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Sakura Anime Cinema. All rights reserved. | Made with ❤️ for anime lovers</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
